@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const models = require('./models/models')
 const express = require('express')
 const sequelize  =require('./db')
 const PORT = process.env.PORT || 7000
